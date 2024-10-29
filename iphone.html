@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de iPhones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .title {
+            text-align: center;
+            color: #333;
+        }
+        .product {
+            display: flex;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        .product img {
+            width: 300px;
+            height: auto;
+        }
+        .product-info {
+            padding: 20px;
+            flex: 1;
+        }
+        .product-info h2 {
+            color: #333;
+            font-size: 24px;
+        }
+        .product-info p {
+            font-size: 18px;
+            color: #666;
+        }
+        .product-info .price {
+            color: #e63946;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .buy-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .buy-btn:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">Venta de iPhones</h1>
+
+    <!-- iPhone 14 Pro -->
+    <div class="product">
+        <img src="images/iphone14pro.jpg" alt="iPhone 14 Pro">
+        <div class="product-info">
+            <h2>iPhone 14 Pro - 256GB</h2>
+            <p>El iPhone 14 Pro combina un diseño impresionante con una potencia inigualable, cámara avanzada y una batería de larga duración.</p>
+            <p class="price">$1,099 USD</p>
+            <a href="#" class="buy-btn">Comprar ahora</a>
+        </div>
+    </div>
+
+    <!-- iPhone 13 Pro Max -->
+    <div class="product">
+        <img src="images/iphone13promax.jpg" alt="iPhone 13 Pro Max">
+        <div class="product-info">
+            <h2>iPhone 13 Pro Max - 256GB</h2>
+            <p>El iPhone 13 Pro Max ofrece rendimiento y cámaras de nivel profesional en un diseño elegante y resistente.</p>
+            <p class="price">$999 USD</p>
+            <a href="#" class="buy-btn">Comprar ahora</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
